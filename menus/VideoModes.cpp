@@ -146,6 +146,10 @@ void CMenuVidModesModel::Update()
 			break;
 
 		m_szModes.AddToTail( mode );
+		m_szModes.AddToTail( "640x480" );
+		m_szModes.AddToTail( "800x600" );
+		m_szModes.AddToTail( "1600x900" );
+		
 	}
 }
 
